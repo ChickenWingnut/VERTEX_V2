@@ -1,3 +1,12 @@
+.carousel-inner{
+    height: 40vh;
+}
+#info{
+    background-color: #0d112c;
+}
+.VertexPlatform{
+    background-color: #060816;
+}
 #background{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../Assets/hand-cover_VERTEX.webp);

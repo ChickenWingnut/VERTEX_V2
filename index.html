@@ -7,25 +7,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VERTEX</title>
   </head>
-  <body>
-    <div id="background" class="container-fluid vh-100">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <img src="Assets/Vertex_Logo-NoHover.webp" alt="Vertex Logo" />
-        </a>
-      </header>
-      <div class="container col-12 align-self-center text-center text-white">
-        <h1>
-          Innovation to drive more equitable, trauma-informed, integrative
-          healthcare
-        </h1>
-        <button type="button" class="btn btn-primary">Learn More</button>
+  <body class="text-white">
+    <div id="background" class="container-fluid vh-100 position-relative">
+      <div class="container nav" id="home-tab-ui" role="tablist">
+        <header class="d-flex flex-wrap py-3 mb-4">
+          <!-- NEEDS LINK -->
+          <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="Assets/Vertex_Logo-NoHover.webp" onmouseover="src='Assets/Vertex_Logo.webp';" onmouseout="src='Assets/Vertex_Logo-NoHover.webp';" alt="Vertex Logo"/>
+          </a>
+        </header>
+      </div>
+      <div class="container align-self-center text-center">
+        <div id="Cover-Logo" class="position-absolute top-50 start-50 translate-middle">
+          
+          <div id="carouselAutoplay" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="d-block w-100">Innovation to drive more equitable,<br>trauma-informed, integrative healthcare</h1>
+              </div>
+              <div class="carousel-item">
+                <h1 class="d-block w-100">Our mission is to provide<br>innovations to bridge the gaps<br>between medicine and the<br>communities we serve to promote<br>more equitable, trauma-informed,<br>patient-centered care.</h1>
+              </div>
+              <div class="carousel-item">
+                <h1 class="d-block w-100">
+                  Our vision is to disrupt the current practice of medicine by establishing a more integrated, community-oriented standard of care that effectively addresses social drivers of health.</h1>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselAutoplay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+              <button type="button" data-bs-target="#carouselAutoplay" data-bs-slide-to="1" aria-label="Slide2"></button>
+              <button type="button" data-bs-target="#carouselAutoplay" data-bs-slide-to="2" aria-label="Slide3"></button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <div id="info" class="container-fluid">
+      <div class="col-1 sticky-top">
+        <ul class="nav nav-pills nav-fill mb-3 flex-column py-5" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-learn-tab" data-bs-toggle="pill" data-bs-target="#pills-learn" type="button" role="tab" aria-controls="pills-learn" aria-selected="false">Learn More</button>
+          </li>
+        </ul>
+      </div>
+        <div class="col-12">
+          <d iv class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
 
+
+              <!-- STATISTICS CAROUSEL... BROKEN-->
+              <div id="carouselStats" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <div class="row">
+                      <img src="Assets/68percent.webp" class="d-block" alt="...">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="1" aria-label="Slide2"></button>
+                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="2" aria-label="Slide3"></button>
+                </div>
+              </div>
+
+              <div class="container text-center">
+                  <h1 class="fw-bold">Vertex 360 Platform</h1>
+                  <h3 class="lead">Our Resource-matching algorithm</h3>
+                  <br>
+                <div class="row justify-content-center">
+                  <div class="col-3 mx-5 rounded-4 py-3 VertexPlatform">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <h2 class="fw-normal">Psychosocial Assessment Tool</h2>
+                    <p>The Psychosocial Assessment Tool assesses for social needs such as food and housing insecurity, in addition to assessing for impacts of trauma.</p>
+                  </div>
+                  <div class="col-3 mx-5 rounded-4 py-3 VertexPlatform">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <h2 class="fw-normal">Trauma-Informed Care Plan</h2>
+                    <p>Our trauma-informed questionnaire incorporates open-ended questions on trauma history and targeted questions on pertinent factors such as triggers and coping skills to promote more sensitive, personalized, holistic care. </p>
+                  </div>
+                  <div class="col-3 mx-5 rounded-4 py-3 VertexPlatform">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <h2 class="fw-normal">Community Resource Platform</h2>
+                    <p>The Psychosocial Resource Platform connects patients to community-based organizations and social services to provide evidence-based interventions to their social and emotional needs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-learn" role="tabpanel" aria-labelledby="pills-learn-tab" tabindex="0">
+              <div class="container text-center">
+                <h1>Core Values</h1>
+                <div class="row justify-content-evenly">
+                  <div class="col-2">
+                    <h2>Adaptability</h2>
+                    <p>Adaptability is not just a value; it's our promise to continually evolve and pivot, ensuring that we remain agile in responding to the evolving needs of our patient population. We are committed to maintaining our lasting impact on their healthcare journey</p>
+                  </div>
+                  <div class="col-2">
+                    <h2>Connectedness</h2>
+                    <p>We hold the core value of connectedness close to our mission. We believe that connectedness is not only essential for fostering innovation through enhanced collaboration but also for amplifying the impact we aim to provide in the communities we serve.</p>
+                  </div>
+                </div>
+                <!-- ADD SYMBOL HERE -->
+                <div class="row justify-content-evenly">
+                  <div class="col-2">
+                    <h2>Impact</h2>
+                    <p>Our unwavering dedication to impact means that every action we take, every connection we make, and every resource we provide is driven by our mission to better serve the patient populations in need of our services.</p>
+                  </div>
+                  <div class="col-2">
+                    <h2>Trust</h2>
+                    <p>Trust is not only essential in building strong relationships with our patients but also in becoming a trusted partner in the broader healthcare ecosystem. We are dedicated to establishing ourselves as a reliable and valued presence within the healthcare industry, dedicated to serving the needs of vulnerable patients with trauma-informed care.</p>
+                  </div>
+                  <div class="col-2">
+                    <h2>Integrity</h2>
+                    <p>Integrity is the guiding light that ensures we stay true to our other core values. We pledge to uphold these principles in every decision we make, unwavering in our commitment to creating positive change and improving the lives of those we serve.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <h1>Meet the Team</h1>
+                <hr>
+                <div class="container">
+                  <div class="row bg-primary justify-content-center p-5">
+                    <div class="col-7">
+                      <h1>Maurice Hicks Jr.</h1>
+                      <h3>Founder & CEO</h3>
+                      <br>
+                      <p>After graduating from Carleton College with a Bachelor's Degree in Psychology, Maurice gained valuable, hands-on experience working on child & adolescent psychiatric units. The inequitable, traumatizing care he observed drove him to pursue a career in medicine with the hopes of promoting more equitable, trauma-informed, patient-centered care on a systemic level. As an MD-MBA student, Maurice has pursued this dream by starting and leading two nonprofits committed to mentorship and trauma-informed care of vulnerable populations while also conducting quality improvement research to further his knowledge of the system he hopes to influence. Through the establishment of Vertex Medical Solutions Inc., Maurice hopes to provide innovative solutions to address the complex disparities in medicine with a focus on addressing psychosocial risk factors.</p>
+                    </div>
+                    <div class="col-4">
+                      <img src="Assets/Mo.webp" alt="Mo Hicks Jr.">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+
+    <!-- TABS -->
+    <!-- <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <p>;alksjd;flkajs;dlkjfa</p>
+      </div>
+    </div> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
