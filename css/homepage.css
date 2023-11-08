@@ -1,5 +1,6 @@
-.carousel-inner{
-    height: 40vh;
+#quote{
+    padding-top: 40vh;
+    height: 100vh;
 }
 #info{
     background-color: #0d112c;
@@ -11,4 +12,10 @@
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../Assets/hand-cover_VERTEX.webp);
     background-size: cover;
+}
+.cropped{
+    overflow: hidden;
+}
+.cropped img{
+    margin-top: -20vh;
 }
