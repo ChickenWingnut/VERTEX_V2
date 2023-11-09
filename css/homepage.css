@@ -13,9 +13,6 @@
     url(../Assets/hand-cover_VERTEX.webp);
     background-size: cover;
 }
-.cropped{
-    overflow: hidden;
-}
-.cropped img{
-    margin-top: -20vh;
+#vertexPlatformTitle{
+    font-size:40;
 }
