@@ -4,6 +4,7 @@
 }
 #info{
     background-color: #0d112c;
+    box-shadow: 0, -20px, 5px, black;
 }
 .VertexPlatform{
     background-color: #060816;
@@ -12,15 +13,16 @@
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../Assets/hand-cover_VERTEX.webp);
     background-size: cover;
+
 }
 #vertexPlatformTitle{
     font-size:40;
 }
-
-#statPrev{
+/* Spaces out statistic carousel buttons */
+/* #statPrev{
 }
 #statNext{
-}
+} */
 #statInner{
     padding-right: 100px;
     padding-left: 100px;

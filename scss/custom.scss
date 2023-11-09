@@ -1,2 +1,6 @@
 $font-family-base:'Forum', serif;
+$nav-link-color: white;
+$nav-pills-link-active-bg: #788aaf;
+$box-shadow:0 1rem 1rem -1rem rgba(#788aaf, .15);
+$box-shadow-lg:0 1rem 3rem rgba(white, .175);
 @import "../node_modules/bootstrap/scss/bootstrap";
