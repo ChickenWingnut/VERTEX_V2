@@ -54,58 +54,64 @@
           </li>
         </ul>
       </div>
-        <div class="col-12">
+
+      <!-- BOTTOM CONTENT -->
+        <div class="container-fluid">
           <div class="tab-content" id="pills-tabContent">
-
-
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
               <!-- STATISTICS CAROUSEL... OFFSET-->
-              <div id="carouselStats" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner justify-content-center">
-                  <div class="carousel-item active">
-                    <div class="row row-cols-2 col-10">
-                      <div class="col-6">
-                        <img src="Assets/68percent.webp"  class="d-block align-self-center" alt="...">
-                      </div>
-                      <div class="col-2">
-                        <h1>68%</h1>
-                        <p>of adults have at least one environmental risk factor that affects their health</p>
-                      </div>
-                    </div>
-                    
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row row-cols-2 col-10">
-                      <div class="col-6">
-                        <img src="Assets/70percent.webp" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="col-2">
-                        <h1>80%</h1>
-                        <p>of health outcomes can be attributed to social drivers of health</p>
+              <div class="d-flex justify-content-center">
+                <div class="carousel slide col-8" id="carouselStats" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="statInner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-7">
+                          <img src="Assets/68percent.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-5">
+                          <h1>68%</h1>
+                          <p>of adults have at least one environmental risk factor that affects their health</p>
+                        </div>
                       </div>
                     </div>
-                    
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row row-cols-2 col-10">
-                      <div class="col-6">
-                        <img src="Assets/80percent.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-7">
+                          <img src="Assets/70percent.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-5">
+                          <h1>80%</h1>
+                          <p>of health outcomes can be attributed to social drivers of health</p>
+                        </div>
                       </div>
-                      <div class="col-2">
-                        <h1>70%</h1>
-                        <p>of adults in the US have experienced some type of traumatic event</p>
-                      </div>
+                
                     </div>
-                    
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-7">
+                          <img src="Assets/80percent.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-5">
+                          <h1>70%</h1>
+                          <p>of adults in the US have experienced some type of traumatic event</p>
+                        </div>
+                      </div>
+              </div>
+              
                   </div>
-                </div>
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
-                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="1" aria-label="Slide2"></button>
-                  <button type="button" data-bs-target="#carouselStats" data-bs-slide-to="2" aria-label="Slide3"></button>
+                  <button class="carousel-control-prev" id="statPrev" type="button" data-bs-target="#carouselStats" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" id="statNext" type="button" data-bs-target="#carouselStats" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
 
+
+              <!-- Vertex 360 Platform intro -->
               <div class="container text-center flex-column justify-content-center vh-100 p-5">
                   <h1 class="fw-bold" id="vertexPlatformTitle">Vertex 360 Platform</h1>
                   <h3 class="lead">Our Resource-matching algorithm</h3>

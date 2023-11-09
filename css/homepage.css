@@ -16,3 +16,12 @@
 #vertexPlatformTitle{
     font-size:40;
 }
+
+#statPrev{
+}
+#statNext{
+}
+#statInner{
+    padding-right: 100px;
+    padding-left: 100px;
+}
