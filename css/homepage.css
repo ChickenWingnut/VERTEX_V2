@@ -34,12 +34,24 @@ p{
     padding-right: 100px;
     padding-left: 100px;
 }
-#Mo-Bio{
+.Bio{
     background-color: #060816;
 }
-.MO{
-    background-image: url(../Assets/Mo.webp);
+.BioImg{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+#Mo{
+    background-image: url(../Assets/Mo.webp);
+    
+}
+#DerekRucker{
+    background-image: url(../Assets/DerekRucker.webp);
+}
+#DavidNguyen{
+    background-image: url(../Assets/DavidNguyen.webp);
+}
+#MarkSanders{
+    background-image: url(../Assets/MarkSanders.webp);
 }
